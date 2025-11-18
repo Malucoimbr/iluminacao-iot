@@ -14,7 +14,7 @@
 
 ## 📌 Descrição do Projeto
 
-Este projeto implementa um sistema IoT utilizando ESP32 para realizar **monitoramento de luminosidade** através de um sensor LDR. Os dados serão integrados futuramente com um **broker MQTT** e um **dashboard web**, cumprindo os requisitos da disciplina.
+Este projeto implementa um sistema IoT utilizando ESP32 para realizar **monitoramento de luminosidade** através de um sensor LDR. Os dados serão integrados futuramente com um **broker MQTT** e um **dashboard web**.
 
 Atualmente, o firmware lê o valor da luz ambiente e aciona um LED caso o nível esteja abaixo de um determinado limiar. O sistema será expandido para enviar esses dados ao Raspberry Pi via MQTT.
 
